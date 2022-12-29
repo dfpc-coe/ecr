@@ -1,4 +1,4 @@
-import cf from '@mapbox/cloudfriend';
+Emport cf from '@mapbox/cloudfriend';
 
 export default cf.merge({
     Description: 'Template for @tak-ps/ecr',
@@ -9,9 +9,11 @@ export default cf.merge({
         }
     },
     Resources: {
-        Type: 'AWS::ECR::Repository',
-        Properties: {
-            RepositoryName: cf.stackName
+        Repository: {
+            Type: 'AWS::ECR::Repository',
+            Properties: {
+                RepositoryName: cf.stackName
+            }
         }
     }
 }
