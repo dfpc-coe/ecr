@@ -1,0 +1,11 @@
+{
+    "name": "coe-ecr",
+    "profile": "labs",
+    "tags": [
+        {
+            "Key": "Project",
+            "Value": "ecr"
+        },
+        "Owner"
+    ]
+}
