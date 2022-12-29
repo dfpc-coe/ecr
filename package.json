@@ -2,7 +2,7 @@
     "name": "@tak-ps/ecr",
     "type": "module",
     "version": "1.0.0",
-    "description": "",
+    "description": "Create and Manage ECR Repositories with CloudFormation",
     "scripts": {
         "lint": "eslint cloudformation/*.js",
         "test": "echo \"Error: no test specified\" && exit 1"
