@@ -1,6 +1,6 @@
 {
     "name": "coe-ecr",
-    "profile": "labs",
+    "profile": "coe",
     "tags": [
         {
             "Key": "Project",
