@@ -1,4 +1,4 @@
-Emport cf from '@mapbox/cloudfriend';
+import cf from '@mapbox/cloudfriend';
 
 export default cf.merge({
     Description: 'Template for @tak-ps/ecr',
