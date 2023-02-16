@@ -33,7 +33,7 @@ To install it globally - view the deploy [README](https://github.com/openaddress
 Deploy uses your existing AWS credentials. Ensure that your `~/.aws/credentials` has an entry like:
 
 ```
-[coe]
+[coegc]
 aws_access_key_id = <redacted>
 aws_secret_access_key = <redacted>
 ```
