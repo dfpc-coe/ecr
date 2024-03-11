@@ -2,6 +2,10 @@
 
 <p align=center>Create and Manage ECR Repositories with CloudFormation</p>
 
+## Notes
+
+- By default AWS Lambda is given full deploy access to use images from ECRs created with this repo
+
 ## Installation
 
 Local installation can be performed via the following
